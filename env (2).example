@@ -1,0 +1,5 @@
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=postgres
+POSTGRES_DB=crypto_dwh
+DWH_CONN_URI=postgresql+psycopg2://postgres:postgres@postgres:5432/crypto_dwh
+COINGECKO_API_URL=https://api.coingecko.com/api/v3/coins/markets
